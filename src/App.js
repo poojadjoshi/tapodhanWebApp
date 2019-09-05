@@ -8,19 +8,28 @@ function App() {
   
    
   <div className="App"> 
-  <header className="App-header">
-  
-  <img src={logo} alt="logo"></img>
-  Welcome to Tapodhan Brahmin Samaj 12 Gaam 
+  <header style={{backgroundColor:"green",display:'flex', justifyContent:'flex-start'}}>
+  <img src={logo} style={{backgroundColor:"green",width:150, height:150}} alt="logo"></img>
+    
+    <div style={{padding:25, fontSize: 34}}>
+    Welcome to Tapodhan Brahmin Samaj 12 Gaam
+    </div>
+    
+    <div style={{fontSize:18, padding: 25 }}>
     <a
-          className="App-link"
-          href="http://www.22gamtapodhanbrahmansamaj.com/material/memberform.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+      className="App-link"
+      href="http://www.22gamtapodhanbrahmansamaj.com/material/memberform.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
         >
-          Go To Registration Form
+          Registration Form
         </a>
+    
+        </div>
         </header>
+        <body>
+          
+        </body>
     </div>
   );
 }
